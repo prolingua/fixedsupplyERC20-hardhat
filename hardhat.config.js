@@ -32,8 +32,7 @@ module.exports = {
   },
   etherscan: {
     apiKey: {
-      ftmTestnet: `${API_KEY}`,
-      ftmMainnet: `${API_KEY}`
+      ftmTestnet: `${API_KEY}`
     }
   },
   contractSizer: {
