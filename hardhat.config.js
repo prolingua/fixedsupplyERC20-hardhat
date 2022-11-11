@@ -3,6 +3,8 @@ require('@nomiclabs/hardhat-ethers');
 require("@nomiclabs/hardhat-etherscan");
 require('hardhat-contract-sizer');
 require('@nomicfoundation/hardhat-chai-matchers');
+require("@nomiclabs/hardhat-web3");
+
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
 const API_KEY = process.env.API_KEY;
 module.exports = {
