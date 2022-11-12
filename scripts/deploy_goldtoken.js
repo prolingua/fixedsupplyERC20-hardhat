@@ -1,5 +1,7 @@
+const { ethers } = require("hardhat");
+
 const etherToWei = (n) => {
-    return new web3.utils.BN(web3.utils.toWei(n.toString(), 'ether'));
+    return ethers.utils.parseEther(n.toString())
   };
 const TOTAL_SUPPLY = etherToWei(1000_000);
 async function main() {
